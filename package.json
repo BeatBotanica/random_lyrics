@@ -1,0 +1,19 @@
+{
+  "name": "samplify_random_lyric",
+  "version": "1.0.0",
+  "description": "random lyrics to display on home page with associated song",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garethmcintosh/samplify_random_lyric.git"
+  },
+  "author": "Gareth McIntosh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/garethmcintosh/samplify_random_lyric/issues"
+  },
+  "homepage": "https://github.com/garethmcintosh/samplify_random_lyric#readme"
+}
