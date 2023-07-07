@@ -1,1 +1,1 @@
-# samplify_x_random_lyric
+# samplify_random_lyric
