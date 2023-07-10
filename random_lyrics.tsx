@@ -1,35 +1,27 @@
-'use client';
+"use client"
 
 import React, { useEffect, useState } from 'react';
-import '@/app/styles/styles.css'
-import { Inter } from "@next/font/google";
-
-const inter = Inter({ subsets: ["latin"] });
-
-let textOptions = []; // Initialize the variable in the outer scope
-
-// Define an asynchronous function to load the lyrics
-const loadLyrics = async () => {
-  const lyricsData = await import('lyrics.json');
-  textOptions = lyricsData.default.map(item => item.lyric);
-};
+import lyricsList from './lyrics.json'; 
 
 const getRandomLyrics = () => {
-  return textOptions[Math.floor(Math.random() * textOptions.length)];
+  return lyricsList[Math.floor(Math.random() * lyricsList.length)].lyric;
 };
 
-const RandomLyrics: React.FC = () => {
+const RandomLyrics = () => {
   const [randomLyrics, setRandomLyrics] = useState('');
 
   useEffect(() => {
-    loadLyrics().then(() => {
-      setRandomLyrics(getRandomLyrics());
-    });
+    setRandomLyrics(getRandomLyrics());
   }, []);
 
   return (
-    <div className={'randomLyrics'}>
-        <h2 className={inter.className}>{randomLyrics}</h2>
+    <div className="border border-black rounded-md p-4 flex items-center">
+      <div className="bg-gray-200 w-24 h-24 mr-4">
+        <h2 className="w-full h-full object-cover">Placeholder</h2>
+      </div>
+      <div>
+        <h2 className="text-lg">{randomLyrics}</h2>
+      </div>
     </div>
   );
 };
