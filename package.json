@@ -1,11 +1,11 @@
 {
   "name": "samplify_random_lyric",
-  "version": "1.0.0",
+  "version": "1.2.1",
   "description": "random lyrics to display on home page with associated song",
-  "main": "./dist/index.js",
+  "main": "./random_lyric.js",
+  "types": "./random_lyric.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -17,9 +17,6 @@
     "url": "https://github.com/garethmcintosh/samplify_random_lyric/issues"
   },
   "homepage": "https://github.com/garethmcintosh/samplify_random_lyric#readme",
-  "devDependencies": {
-    "typescript": "^5.1.6"
-  },
   "dependencies": {
     "@types/react": "^18.2.14",
     "tailwindcss": "^3.3.2"
