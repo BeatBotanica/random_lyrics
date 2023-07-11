@@ -16,9 +16,5 @@
   "bugs": {
     "url": "https://github.com/garethmcintosh/samplify_random_lyric/issues"
   },
-  "homepage": "https://github.com/garethmcintosh/samplify_random_lyric#readme",
-  "dependencies": {
-    "@types/react": "^18.2.14",
-    "tailwindcss": "^3.3.2"
-  }
+  "homepage": "https://github.com/garethmcintosh/samplify_random_lyric#readme"
 }
