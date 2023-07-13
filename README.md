@@ -18,5 +18,4 @@ Some loose guidelines:
 
 * Choose meaningful lyrics.
 * Use actual lyrics from actual songs, don't just make up random lyrics.
-* Avoid lyrics that are gendered, sexual, aggressive, or violent.
 * Keep lyrics brief, we don't want paragraphs
