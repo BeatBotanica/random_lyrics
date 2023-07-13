@@ -1,7 +1,7 @@
 {
-  "name": "samplify_random_lyric",
-  "version": "1.2.1",
-  "description": "random lyrics to display on home page with associated song",
+  "name": "bb_random_lyrics",
+  "version": "0.0.1",
+  "description": "Random lyrics that can be appended through a public github repository",
   "main": "./random_lyric.js",
   "types": "./random_lyric.d.ts",
   "scripts": {
@@ -9,12 +9,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/garethmcintosh/samplify_random_lyric.git"
+    "url": "git+https://github.com/BeatBotanica/random_lyrics.git"
   },
   "author": "Gareth McIntosh",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/garethmcintosh/samplify_random_lyric/issues"
+    "url": "https://github.com/BeatBotanica/random_lyrics/issues"
   },
-  "homepage": "https://github.com/garethmcintosh/samplify_random_lyric#readme"
+  "homepage": "https://github.com/BeatBotanica/random_lyrics#readme"
 }
