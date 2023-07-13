@@ -1,4 +1,6 @@
-# samplify_random_lyric
+# random_lyrics
+[![NPM version](https://img.shields.io/npm/v/bb_random_lyrics.svg?style=flat-square)](https://www.npmjs.com/package/bb_random_lyrics)
+[![NPM license](https://img.shields.io/npm/l/bb_random_lyrics.svg?style=flat-square)](https://www.npmjs.com/package/bb_random_lyrics)
 
 ## What This Is
 
